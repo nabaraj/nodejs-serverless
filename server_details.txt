@@ -1,0 +1,14 @@
+service: expressInAWSDemo
+stage: production
+region: us-east-1
+stack: expressInAWSDemo-production
+resources: 12
+api keys:
+  None
+endpoints:
+  ANY - https://o7qm3lumra.execute-api.us-east-1.amazonaws.com/production/{proxy+}proxy+}
+  ANY - https://o7qm3lumra.execute-api.us-east-1.amazonaws.com/production  
+functions:
+  api: expressInAWSDemo-production-api
+layers:
+  None
